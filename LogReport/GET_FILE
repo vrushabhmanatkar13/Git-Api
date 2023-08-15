@@ -1,0 +1,63 @@
+Request method:	GET
+Request URI:	https://api.github.com/repos/vrushabhmanatkar13/ABC/contents/text.txt
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	username=vrushabhmanatkar13
+				reponame=ABC
+				filename=text.txt
+Headers:		Authorization=Bearer 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
+				Accept=application/vnd.github+json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Server: GitHub.com
+Date: Sun, 13 Aug 2023 19:08:31 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Cache-Control: private, max-age=60, s-maxage=60
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+ETag: W/"4531bda61d7dca4693c8009c1967ac45081e1b88"
+Last-Modified: Sun, 13 Aug 2023 19:08:31 GMT
+X-OAuth-Scopes: admin:enterprise, admin:gpg_key, admin:org, admin:public_key, admin:repo_hook, admin:ssh_signing_key, delete_repo, repo, user, write:packages
+X-Accepted-OAuth-Scopes: 
+X-GitHub-Media-Type: github.v3; format=json
+x-github-api-version-selected: 2022-11-28
+X-RateLimit-Limit: 5000
+X-RateLimit-Remaining: 4978
+X-RateLimit-Reset: 1691955607
+X-RateLimit-Used: 22
+X-RateLimit-Resource: core
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset
+Access-Control-Allow-Origin: *
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+X-Frame-Options: deny
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 0
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Content-Security-Policy: default-src 'none'
+Vary: Accept-Encoding, Accept, X-Requested-With
+Content-Encoding: gzip
+X-GitHub-Request-Id: 442A:218857:1698264:186A1E7:64D92A2F
+
+{
+    "name": "text.txt",
+    "path": "text.txt",
+    "sha": "4531bda61d7dca4693c8009c1967ac45081e1b88",
+    "size": 25,
+    "url": "https://api.github.com/repos/vrushabhmanatkar13/ABC/contents/text.txt?ref=main",
+    "html_url": "https://github.com/vrushabhmanatkar13/ABC/blob/main/text.txt",
+    "git_url": "https://api.github.com/repos/vrushabhmanatkar13/ABC/git/blobs/4531bda61d7dca4693c8009c1967ac45081e1b88",
+    "download_url": "https://raw.githubusercontent.com/vrushabhmanatkar13/ABC/main/text.txt",
+    "type": "file",
+    "content": "SGkgSSBhbSBjcmVhdGluZyBuZXcgRmlsZQ==\n",
+    "encoding": "base64",
+    "_links": {
+        "self": "https://api.github.com/repos/vrushabhmanatkar13/ABC/contents/text.txt?ref=main",
+        "git": "https://api.github.com/repos/vrushabhmanatkar13/ABC/git/blobs/4531bda61d7dca4693c8009c1967ac45081e1b88",
+        "html": "https://github.com/vrushabhmanatkar13/ABC/blob/main/text.txt"
+    }
+}

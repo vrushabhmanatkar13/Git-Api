@@ -1,0 +1,101 @@
+Request method:	PUT
+Request URI:	https://api.github.com/repos/vrushabhmanatkar13/ABC/contents/text.txt
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	username=vrushabhmanatkar13
+				reponame=ABC
+				filename=text.txt
+Headers:		Authorization=Bearer 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
+				Accept=application/vnd.github+json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "message": "Up date File",
+    "content": "SGkgSSBhbSBVcGRhdGluZyBGaWxlIGNvbnRlbnQ=",
+    "sha": "4531bda61d7dca4693c8009c1967ac45081e1b88"
+}
+HTTP/1.1 200 OK
+Server: GitHub.com
+Date: Sun, 13 Aug 2023 19:08:32 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Cache-Control: private, max-age=60, s-maxage=60
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+ETag: W/"bb5737ca936120858b0dbd75e84f8ffe5f534b3f51e0fee4c6da6c6d1917c8d7"
+X-OAuth-Scopes: admin:enterprise, admin:gpg_key, admin:org, admin:public_key, admin:repo_hook, admin:ssh_signing_key, delete_repo, repo, user, write:packages
+X-Accepted-OAuth-Scopes: 
+X-GitHub-Media-Type: github.v3; format=json
+x-github-api-version-selected: 2022-11-28
+X-RateLimit-Limit: 5000
+X-RateLimit-Remaining: 4977
+X-RateLimit-Reset: 1691955607
+X-RateLimit-Used: 23
+X-RateLimit-Resource: core
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset
+Access-Control-Allow-Origin: *
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+X-Frame-Options: deny
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 0
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Content-Security-Policy: default-src 'none'
+Vary: Accept-Encoding, Accept, X-Requested-With
+Content-Encoding: gzip
+X-GitHub-Request-Id: 7D44:1B2D78:2C44E8:3384DC:64D92A2F
+
+{
+    "content": {
+        "name": "text.txt",
+        "path": "text.txt",
+        "sha": "b065a1d4652592c7be7c600efa8e9056c05c1156",
+        "size": 29,
+        "url": "https://api.github.com/repos/vrushabhmanatkar13/ABC/contents/text.txt?ref=main",
+        "html_url": "https://github.com/vrushabhmanatkar13/ABC/blob/main/text.txt",
+        "git_url": "https://api.github.com/repos/vrushabhmanatkar13/ABC/git/blobs/b065a1d4652592c7be7c600efa8e9056c05c1156",
+        "download_url": "https://raw.githubusercontent.com/vrushabhmanatkar13/ABC/main/text.txt",
+        "type": "file",
+        "_links": {
+            "self": "https://api.github.com/repos/vrushabhmanatkar13/ABC/contents/text.txt?ref=main",
+            "git": "https://api.github.com/repos/vrushabhmanatkar13/ABC/git/blobs/b065a1d4652592c7be7c600efa8e9056c05c1156",
+            "html": "https://github.com/vrushabhmanatkar13/ABC/blob/main/text.txt"
+        }
+    },
+    "commit": {
+        "sha": "b858cfe0454c28d20fa8572f709b9f696ab5cc21",
+        "node_id": "C_kwDOKGtjVtoAKGI4NThjZmUwNDU0YzI4ZDIwZmE4NTcyZjcwOWI5ZjY5NmFiNWNjMjE",
+        "url": "https://api.github.com/repos/vrushabhmanatkar13/ABC/git/commits/b858cfe0454c28d20fa8572f709b9f696ab5cc21",
+        "html_url": "https://github.com/vrushabhmanatkar13/ABC/commit/b858cfe0454c28d20fa8572f709b9f696ab5cc21",
+        "author": {
+            "name": "Vrushabh_Manatkar",
+            "email": "110097432+vrushabhmanatkar13@users.noreply.github.com",
+            "date": "2023-08-13T19:08:32Z"
+        },
+        "committer": {
+            "name": "Vrushabh_Manatkar",
+            "email": "110097432+vrushabhmanatkar13@users.noreply.github.com",
+            "date": "2023-08-13T19:08:32Z"
+        },
+        "tree": {
+            "sha": "ce9c4f0b1614e59be935c222b5d34a167838cbaa",
+            "url": "https://api.github.com/repos/vrushabhmanatkar13/ABC/git/trees/ce9c4f0b1614e59be935c222b5d34a167838cbaa"
+        },
+        "message": "Up date File",
+        "parents": [
+            {
+                "sha": "f8f54818cc600b58bc94a4977df0ba8a3a3f787a",
+                "url": "https://api.github.com/repos/vrushabhmanatkar13/ABC/git/commits/f8f54818cc600b58bc94a4977df0ba8a3a3f787a",
+                "html_url": "https://github.com/vrushabhmanatkar13/ABC/commit/f8f54818cc600b58bc94a4977df0ba8a3a3f787a"
+            }
+        ],
+        "verification": {
+            "verified": false,
+            "reason": "unsigned",
+            "signature": null,
+            "payload": null
+        }
+    }
+}

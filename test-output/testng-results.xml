@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-08-14T00:38:24 IST" name="GitHubApi" finished-at="2023-08-14T00:38:34 IST" duration-ms="10098">
+    <groups>
+    </groups>
+    <test started-at="2023-08-14T00:38:24 IST" name="Test" finished-at="2023-08-14T00:38:34 IST" duration-ms="10098">
+      <class name="com.RESTAPI.UserProfileTest">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:com.RESTAPI.UserProfileTest@3d6f0054]" started-at="2023-08-14T00:38:23 IST" name="beforeSuite" finished-at="2023-08-14T00:38:24 IST" duration-ms="353" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.RESTAPI.UserProfileTest@3d6f0054]" started-at="2023-08-14T00:38:24 IST" name="beforeTest" finished-at="2023-08-14T00:38:24 IST" duration-ms="672" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="getUserProfile(org.testng.ITestContext)[pri:1, instance:com.RESTAPI.UserProfileTest@3d6f0054]" started-at="2023-08-14T00:38:24 IST" name="getUserProfile" finished-at="2023-08-14T00:38:27 IST" duration-ms="2720" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@38548b19]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUserProfile -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestContext)[pri:0, instance:com.RESTAPI.UserProfileTest@3d6f0054]" started-at="2023-08-14T00:38:27 IST" name="afterMethod" finished-at="2023-08-14T00:38:28 IST" duration-ms="256" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@38548b19]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="createRepo(org.testng.ITestContext)[pri:2, instance:com.RESTAPI.UserProfileTest@3d6f0054]" started-at="2023-08-14T00:38:28 IST" name="createRepo" finished-at="2023-08-14T00:38:29 IST" duration-ms="1608" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@38548b19]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createRepo -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestContext)[pri:0, instance:com.RESTAPI.UserProfileTest@3d6f0054]" started-at="2023-08-14T00:38:29 IST" name="afterMethod" finished-at="2023-08-14T00:38:29 IST" duration-ms="22" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@38548b19]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="getAllRepo(org.testng.ITestContext)[pri:3, instance:com.RESTAPI.UserProfileTest@3d6f0054]" started-at="2023-08-14T00:38:29 IST" name="getAllRepo" finished-at="2023-08-14T00:38:30 IST" duration-ms="687" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@38548b19]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllRepo -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestContext)[pri:0, instance:com.RESTAPI.UserProfileTest@3d6f0054]" started-at="2023-08-14T00:38:30 IST" name="afterMethod" finished-at="2023-08-14T00:38:30 IST" duration-ms="31" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@38548b19]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="getUserRepo(org.testng.ITestContext)[pri:4, instance:com.RESTAPI.UserProfileTest@3d6f0054]" started-at="2023-08-14T00:38:30 IST" name="getUserRepo" finished-at="2023-08-14T00:38:31 IST" duration-ms="527" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@38548b19]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUserRepo -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestContext)[pri:0, instance:com.RESTAPI.UserProfileTest@3d6f0054]" started-at="2023-08-14T00:38:31 IST" name="afterMethod" finished-at="2023-08-14T00:38:31 IST" duration-ms="19" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@38548b19]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="createFile(org.testng.ITestContext)[pri:5, instance:com.RESTAPI.UserProfileTest@3d6f0054]" started-at="2023-08-14T00:38:31 IST" name="createFile" finished-at="2023-08-14T00:38:31 IST" duration-ms="617" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@38548b19]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createFile -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestContext)[pri:0, instance:com.RESTAPI.UserProfileTest@3d6f0054]" started-at="2023-08-14T00:38:31 IST" name="afterMethod" finished-at="2023-08-14T00:38:31 IST" duration-ms="15" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@38548b19]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="getFile(org.testng.ITestContext)[pri:6, instance:com.RESTAPI.UserProfileTest@3d6f0054]" started-at="2023-08-14T00:38:31 IST" name="getFile" finished-at="2023-08-14T00:38:32 IST" duration-ms="462" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@38548b19]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFile -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestContext)[pri:0, instance:com.RESTAPI.UserProfileTest@3d6f0054]" started-at="2023-08-14T00:38:32 IST" name="afterMethod" finished-at="2023-08-14T00:38:32 IST" duration-ms="17" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@38548b19]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="updateFile(org.testng.ITestContext)[pri:7, instance:com.RESTAPI.UserProfileTest@3d6f0054]" started-at="2023-08-14T00:38:32 IST" name="updateFile" finished-at="2023-08-14T00:38:33 IST" duration-ms="991" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@38548b19]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateFile -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestContext)[pri:0, instance:com.RESTAPI.UserProfileTest@3d6f0054]" started-at="2023-08-14T00:38:33 IST" name="afterMethod" finished-at="2023-08-14T00:38:33 IST" duration-ms="52" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@38548b19]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="deleteFile(org.testng.ITestContext)[pri:8, instance:com.RESTAPI.UserProfileTest@3d6f0054]" started-at="2023-08-14T00:38:33 IST" name="deleteFile" finished-at="2023-08-14T00:38:33 IST" duration-ms="599" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@38548b19]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteFile -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestContext)[pri:0, instance:com.RESTAPI.UserProfileTest@3d6f0054]" started-at="2023-08-14T00:38:33 IST" name="afterMethod" finished-at="2023-08-14T00:38:33 IST" duration-ms="16" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@38548b19]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="deleteUserRepo(org.testng.ITestContext)[pri:9, instance:com.RESTAPI.UserProfileTest@3d6f0054]" started-at="2023-08-14T00:38:33 IST" name="deleteUserRepo" finished-at="2023-08-14T00:38:34 IST" duration-ms="495" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@38548b19]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteUserRepo -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestContext)[pri:0, instance:com.RESTAPI.UserProfileTest@3d6f0054]" started-at="2023-08-14T00:38:34 IST" name="afterMethod" finished-at="2023-08-14T00:38:34 IST" duration-ms="12" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@38548b19]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.RESTAPI.UserProfileTest -->
+    </test> <!-- Test -->
+  </suite> <!-- GitHubApi -->
+</testng-results>

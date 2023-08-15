@@ -1,0 +1,89 @@
+Request method:	GET
+Request URI:	https://api.github.com/users/vrushabhmanatkar13
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	username=vrushabhmanatkar13
+Headers:		Authorization=Bearer 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
+				Accept=application/vnd.github+json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Server: GitHub.com
+Date: Sun, 13 Aug 2023 19:08:26 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Cache-Control: private, max-age=60, s-maxage=60
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+ETag: W/"bb5b89bc76aecf6d881bccdf93344e5d3f2baa7d4381e9f88bc5199cc697b3a2"
+Last-Modified: Thu, 10 Aug 2023 07:02:41 GMT
+X-OAuth-Scopes: admin:enterprise, admin:gpg_key, admin:org, admin:public_key, admin:repo_hook, admin:ssh_signing_key, delete_repo, repo, user, write:packages
+X-Accepted-OAuth-Scopes: 
+X-GitHub-Media-Type: github.v3; format=json
+x-github-api-version-selected: 2022-11-28
+X-RateLimit-Limit: 5000
+X-RateLimit-Remaining: 4983
+X-RateLimit-Reset: 1691955607
+X-RateLimit-Used: 17
+X-RateLimit-Resource: core
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset
+Access-Control-Allow-Origin: *
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+X-Frame-Options: deny
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 0
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Content-Security-Policy: default-src 'none'
+Vary: Accept-Encoding, Accept, X-Requested-With
+Content-Encoding: gzip
+X-GitHub-Request-Id: 4043:396802:19845DB:1B6819A:64D92A29
+
+{
+    "login": "vrushabhmanatkar13",
+    "id": 110097432,
+    "node_id": "U_kgDOBo_0GA",
+    "avatar_url": "https://avatars.githubusercontent.com/u/110097432?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/vrushabhmanatkar13",
+    "html_url": "https://github.com/vrushabhmanatkar13",
+    "followers_url": "https://api.github.com/users/vrushabhmanatkar13/followers",
+    "following_url": "https://api.github.com/users/vrushabhmanatkar13/following{/other_user}",
+    "gists_url": "https://api.github.com/users/vrushabhmanatkar13/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/vrushabhmanatkar13/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/vrushabhmanatkar13/subscriptions",
+    "organizations_url": "https://api.github.com/users/vrushabhmanatkar13/orgs",
+    "repos_url": "https://api.github.com/users/vrushabhmanatkar13/repos",
+    "events_url": "https://api.github.com/users/vrushabhmanatkar13/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/vrushabhmanatkar13/received_events",
+    "type": "User",
+    "site_admin": false,
+    "name": "Vrushabh_Manatkar",
+    "company": null,
+    "blog": "",
+    "location": null,
+    "email": null,
+    "hireable": null,
+    "bio": "QA & Automation Engineer  ",
+    "twitter_username": null,
+    "public_repos": 8,
+    "public_gists": 0,
+    "followers": 0,
+    "following": 0,
+    "created_at": "2022-07-27T09:59:15Z",
+    "updated_at": "2023-08-10T07:02:41Z",
+    "private_gists": 0,
+    "total_private_repos": 1,
+    "owned_private_repos": 1,
+    "disk_usage": 106172,
+    "collaborators": 0,
+    "two_factor_authentication": false,
+    "plan": {
+        "name": "free",
+        "space": 976562499,
+        "collaborators": 0,
+        "private_repos": 10000
+    }
+}
