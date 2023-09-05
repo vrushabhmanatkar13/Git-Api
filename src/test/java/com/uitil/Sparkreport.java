@@ -54,28 +54,19 @@ public class Sparkreport {
 	public void create_info(String name) {
 		test.get().log(Status.INFO, name);	
 	}
-	public void infoJSON(String name) {
-		test.get().log(Status.INFO, MarkupHelper.createCodeBlock(name, CodeLanguage.JSON));	
-	}
 	
-	public void test_pass(String status ,String attribute ,ITestResult result) throws IOException {
-  //  test.generateLog(Status.PASS, result.getMethod().getMethodName());
-    test.get().log(Status.PASS, (String)result.getTestContext().getAttribute(status));
-    test.get().log(Status.PASS, MarkupHelper.createCodeBlock((String) result.getTestContext().getAttribute(attribute), CodeLanguage.JSON));
-   
-		
+	public void test_pass(ITestResult result) throws IOException {
+  
+    test.get().log(Status.PASS, result.getMethod().getMethodName());
+  	
 	}
-	public void test_fail(String status,String attribute, ITestResult result) throws IOException {
-	//	test.generateLog(Status.FAIL, result.getMethod().getMethodName());
-		test.get().log(Status.FAIL, (String)result.getTestContext().getAttribute(status));	 
-		test.get().log(Status.FAIL, MarkupHelper.createCodeBlock((String) result.getTestContext().getAttribute(attribute), CodeLanguage.JSON));
-		result.getThrowable().printStackTrace();
-		
-		
-		
+	public void test_fail(ITestResult result) throws IOException {
+		test.get().log(Status.FAIL, result.getMethod().getMethodName());	 
+		test.get().log(Status.FAIL, result.getThrowable());
+		result.getThrowable().printStackTrace();	
 	}
-	public void test_skip(String name) {
-		test.get().log(Status.SKIP, name);
+	public void test_skip(ITestResult result) {
+		test.get().log(Status.SKIP, result.getMethod().getMethodName());
 	}
 	public static void flush() {
 		extent.flush();

@@ -17,47 +17,39 @@ public class CreateFile {
 	
 	
 	
-public static Response createFile(RequestSpecification request,String username,String reponame,String filename, FileContentPOJO filecontent, PrintStream ps) {
+public static Response createFile(RequestSpecification request,String path, FileContentPOJO filecontent, PrintStream ps) {
 		
-		Response responce = 
-				given().spec(request).pathParam("username", username).pathParam("reponame", reponame).pathParam("filename", filename)
-				.body(filecontent)
+		Response responce = request.body(filecontent)
 				.filter(RequestLoggingFilter.logRequestTo(ps)).filter(ResponseLoggingFilter.logResponseTo(ps))
 	           .when()
-		           .put("/repos/{username}/{reponame}/contents/{filename}");
+		           .put(path);
 		
 		   return responce;
 	}
 
-public static Response getFile(RequestSpecification request,String username,String reponame,String filename, PrintStream ps) {
-	Response responce = 
-			given().spec(request).pathParam("username", username).pathParam("reponame", reponame).pathParam("filename", filename)
-			.filter(RequestLoggingFilter.logRequestTo(ps)).filter(ResponseLoggingFilter.logResponseTo(ps))
+public static Response getFile(RequestSpecification request,String path, PrintStream ps) {
+	Response responce = request.filter(RequestLoggingFilter.logRequestTo(ps)).filter(ResponseLoggingFilter.logResponseTo(ps))
 			.when()
-	           .get("/repos/{username}/{reponame}/contents/{filename}");
+	           .get(path);
 
 	return responce ;
 	
 }
-public static Response updateFile(RequestSpecification request,String username,String reponame,String filename, FileUpdatePOJO fileupdate, PrintStream ps) {
+public static Response updateFile(RequestSpecification request,String path, FileUpdatePOJO fileupdate, PrintStream ps) {
 	
-	Response responce = 
-			given().spec(request).pathParam("username", username).pathParam("reponame", reponame).pathParam("filename", filename)
-			.body(fileupdate)
+	Response responce = request.body(fileupdate)
 			.filter(RequestLoggingFilter.logRequestTo(ps)).filter(ResponseLoggingFilter.logResponseTo(ps))
            .when()
-	           .put("/repos/{username}/{reponame}/contents/{filename}");
+	           .put(path);
 	
 	   return responce;
 }
-public static Response deleteFile(RequestSpecification request,String username,String reponame,String filename, DeleteFilePOJO deletefile, PrintStream ps) {
+public static Response deleteFile(RequestSpecification request,String path, DeleteFilePOJO deletefile, PrintStream ps) {
 	
-	Response responce = 
-			given().spec(request).pathParam("username", username).pathParam("reponame", reponame).pathParam("filename", filename)
-			.body(deletefile)
+	Response responce = request.body(deletefile)
 			.filter(RequestLoggingFilter.logRequestTo(ps)).filter(ResponseLoggingFilter.logResponseTo(ps))
            .when()
-	           .delete("/repos/{username}/{reponame}/contents/{filename}");
+	           .delete(path);
 	
 	   return responce;
 }

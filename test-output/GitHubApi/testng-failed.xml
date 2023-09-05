@@ -8,13 +8,9 @@
     <classes>
       <class name="com.RESTAPI.UserProfileTest">
         <methods>
-          <include name="getFile" invocation-numbers="0"/>
-          <include name="createFile" invocation-numbers="0"/>
           <include name="beforeSuite"/>
-          <include name="getUserRepo" invocation-numbers="0"/>
           <include name="beforeTest"/>
           <include name="afterMethod"/>
-          <include name="createRepo" invocation-numbers="0"/>
           <include name="deleteFile" invocation-numbers="0"/>
           <include name="updateFile" invocation-numbers="0"/>
         </methods>

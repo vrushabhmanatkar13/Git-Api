@@ -15,32 +15,31 @@ import io.restassured.specification.RequestSpecification;
 
 public class UserRepos {
 	
-	public static Response getUserRepos(RequestSpecification request,String username,String reponame, PrintStream ps) {
+	public static Response getUserRepos(RequestSpecification request,String path, PrintStream ps) {
 		
-		Response responce=given().spec(request).pathParam("username", username).pathParam("reponame", reponame).filter(RequestLoggingFilter.logRequestTo(ps)).filter(ResponseLoggingFilter.logResponseTo(ps))
-				.when().get("/repos/{username}/{reponame}");	
+		Response responce=request.filter(RequestLoggingFilter.logRequestTo(ps)).filter(ResponseLoggingFilter.logResponseTo(ps))
+				.when().get(path);	
 		return responce;
 		
 	}
 	
 	
 	public static Response getAllRepos(RequestSpecification request, String pathparameters, PrintStream ps) {
-		Response responce=given().spec(request).pathParam("username", pathparameters).filter(RequestLoggingFilter.logRequestTo(ps)).filter(ResponseLoggingFilter.logResponseTo(ps))
-				.when().get("/users/{username}/repos");
+		Response responce=request.filter(RequestLoggingFilter.logRequestTo(ps)).filter(ResponseLoggingFilter.logResponseTo(ps))
+				.when().get(pathparameters);
 		return responce;
 		
 	}
 	
-	public static Response createRepo(RequestSpecification request, CreateRepoPOJO body, PrintStream ps) {
-		
-		Response responce= given().spec(request).filter(RequestLoggingFilter.logRequestTo(ps)).filter(ResponseLoggingFilter.logResponseTo(ps))
-				.body(body).when().post("/user/repos");
+	public static Response createRepo(RequestSpecification request, CreateRepoPOJO body, String path ,PrintStream ps) {	
+		Response responce= request.filter(RequestLoggingFilter.logRequestTo(ps)).filter(ResponseLoggingFilter.logResponseTo(ps))
+				.body(body).when().post(path); ///user/repos
 		return responce;
 	}
 	
-	public static Response deleteRepo(RequestSpecification request,String username,String reponame,PrintStream ps) {
-		Response responce=given().spec(request).pathParam("username", username).pathParam("reponame", reponame).filter(RequestLoggingFilter.logRequestTo(ps)).filter(ResponseLoggingFilter.logResponseTo(ps))
-				.when().delete("/repos/{username}/{reponame}");
+	public static Response deleteRepo(RequestSpecification request,String path,PrintStream ps) {
+		Response responce=request.filter(RequestLoggingFilter.logRequestTo(ps)).filter(ResponseLoggingFilter.logResponseTo(ps))
+				.when().delete(path);
 		return responce;
 	}
 

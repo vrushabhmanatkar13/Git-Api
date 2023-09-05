@@ -29,8 +29,8 @@ public class Test {
 	
 	public static RequestSpecification requestSpecification(String token, Map<String, String> map) {
 		RequestSpecification requestspecification = new RequestSpecBuilder()
-				.addPathParams(map)
-				.addHeader("Authorization", "Bearer " + token)
+			.addPathParams(map)
+				.addHeader("Authorization", "Bearer "+token)
 				.setContentType(ContentType.JSON)
 				.setBasePath("{users}/{username}")
 				.build();
@@ -42,8 +42,7 @@ public class Test {
 		return given().auth().oauth2(token).pathParams(map).contentType(ContentType.JSON).basePath("{users}/{username}");
 	}
 	
-	public static void logRequest(RequestSpecification req) {
-		
+	public static void logRequest(RequestSpecification req) {	
 		QueryableRequestSpecification request=SpecificationQuerier.query(req);
 		System.out.println(request.getURI());
 		System.out.println(request.getPathParams());
@@ -59,7 +58,7 @@ public class Test {
          map.put("users", "users");
          map.put("username", "vrushabhmanatkar13");
          
-         RequestSpecification req = requestSpecification("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", map);
+         RequestSpecification req = create("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", map);
 		
          req.when().get().then().log().all();
 		logRequest(req);

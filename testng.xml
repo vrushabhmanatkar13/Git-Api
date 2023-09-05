@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="GitHubApi">
+<suite name="Suite">
 <listeners>
 <listener class-name="com.uitil.ITestResultListner"></listener>
 </listeners>
-  <test thread-count="5" name="Test">
+  <test thread-count="5" name="Test" preserve-order="true">
     <classes>
       <class name="com.RESTAPI.UserProfileTest"/>
-     
+      <class name="com.RESTAPI.UserReposTest"/>
+      <class name="com.RESTAPI.UserFiles"/>
+      
     </classes>
   </test> <!-- Test -->
-</suite> <!-- GitHubApi -->
+</suite> <!-- Suite -->

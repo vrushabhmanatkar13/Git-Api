@@ -4,30 +4,31 @@ Proxy:			<none>
 Request params:	<none>
 Query params:	<none>
 Form params:	<none>
-Path params:	username=vrushabhmanatkar13
-Headers:		Authorization=Bearer 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
-				Accept=application/vnd.github+json
+Path params:	resource=users
+				username=vrushabhmanatkar13
+Headers:		Authorization=Bearer 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
+				Accept=*/*
 				Content-Type=application/json
 Cookies:		<none>
 Multiparts:		<none>
 Body:			<none>
 HTTP/1.1 200 OK
 Server: GitHub.com
-Date: Sun, 13 Aug 2023 19:08:26 GMT
+Date: Wed, 30 Aug 2023 21:05:32 GMT
 Content-Type: application/json; charset=utf-8
 Transfer-Encoding: chunked
 Cache-Control: private, max-age=60, s-maxage=60
 Vary: Accept, Authorization, Cookie, X-GitHub-OTP
-ETag: W/"bb5b89bc76aecf6d881bccdf93344e5d3f2baa7d4381e9f88bc5199cc697b3a2"
-Last-Modified: Thu, 10 Aug 2023 07:02:41 GMT
-X-OAuth-Scopes: admin:enterprise, admin:gpg_key, admin:org, admin:public_key, admin:repo_hook, admin:ssh_signing_key, delete_repo, repo, user, write:packages
+ETag: W/"6e579b4bd47159e7a04f375af3874942127d38ab6951cd494df26b5bcdb247dd"
+Last-Modified: Wed, 30 Aug 2023 16:46:50 GMT
+X-OAuth-Scopes: delete:packages, delete_repo, repo, user, write:discussion, write:packages
 X-Accepted-OAuth-Scopes: 
 X-GitHub-Media-Type: github.v3; format=json
 x-github-api-version-selected: 2022-11-28
 X-RateLimit-Limit: 5000
-X-RateLimit-Remaining: 4983
-X-RateLimit-Reset: 1691955607
-X-RateLimit-Used: 17
+X-RateLimit-Remaining: 4989
+X-RateLimit-Reset: 1693433054
+X-RateLimit-Used: 11
 X-RateLimit-Resource: core
 Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset
 Access-Control-Allow-Origin: *
@@ -39,7 +40,7 @@ Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Content-Security-Policy: default-src 'none'
 Vary: Accept-Encoding, Accept, X-Requested-With
 Content-Encoding: gzip
-X-GitHub-Request-Id: 4043:396802:19845DB:1B6819A:64D92A29
+X-GitHub-Request-Id: 5CDD:2A95D4:5729B:62DA2:64EFAF1B
 
 {
     "login": "vrushabhmanatkar13",
@@ -61,23 +62,23 @@ X-GitHub-Request-Id: 4043:396802:19845DB:1B6819A:64D92A29
     "type": "User",
     "site_admin": false,
     "name": "Vrushabh_Manatkar",
-    "company": null,
+    "company": "Infobeans Technologies Ltd.",
     "blog": "",
-    "location": null,
+    "location": "Pune",
     "email": null,
     "hireable": null,
-    "bio": "QA & Automation Engineer  ",
+    "bio": "QA & Automation Engineer ",
     "twitter_username": null,
-    "public_repos": 8,
+    "public_repos": 5,
     "public_gists": 0,
     "followers": 0,
     "following": 0,
     "created_at": "2022-07-27T09:59:15Z",
-    "updated_at": "2023-08-10T07:02:41Z",
+    "updated_at": "2023-08-30T16:46:50Z",
     "private_gists": 0,
     "total_private_repos": 1,
     "owned_private_repos": 1,
-    "disk_usage": 106172,
+    "disk_usage": 63544,
     "collaborators": 0,
     "two_factor_authentication": false,
     "plan": {

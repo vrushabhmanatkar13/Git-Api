@@ -11,18 +11,13 @@ import java.io.PrintStream;
 
 
 
-
-
-
-
 public class UserProfile {
 	
 
-	public static Response getUserProfile(RequestSpecification request,String username, PrintStream ps) {	
-		
-		 Response responce = given().spec(request).pathParam("username", username).filter(RequestLoggingFilter.logRequestTo(ps)).filter(ResponseLoggingFilter.logResponseTo(ps))
-				 .when().get("/users/{username}");
-		 
+	public static Response getUserProfile(RequestSpecification request,PrintStream ps) {		
+		 Response responce = request.filter(RequestLoggingFilter.logRequestTo(ps))
+				 .filter(ResponseLoggingFilter.logResponseTo(ps))
+				 .when().get("{resource}/{username}");
 		 return responce;
 	}
 	

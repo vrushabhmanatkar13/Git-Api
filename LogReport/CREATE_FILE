@@ -4,18 +4,16 @@ Proxy:			<none>
 Request params:	<none>
 Query params:	<none>
 Form params:	<none>
-Path params:	username=vrushabhmanatkar13
-				reponame=ABC
-				filename=text.txt
-Headers:		Authorization=Bearer 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
-				Accept=application/vnd.github+json
+Path params:	<none>
+Headers:		Authorization=Bearer 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
+				Accept=*/*
 				Content-Type=application/json
 Cookies:		<none>
 Multiparts:		<none>
 Body:
 {
     "message": "Add new file",
-    "content": "SGkgSSBhbSBjcmVhdGluZyBuZXcgRmlsZQ==",
+    "content": "SGkgSSBhbSBjcmVhdGluZyBuZXcgRmlsZSBB",
     "committer": {
         "name": "Vrushabh Manatkar",
         "email": "vrushabhmanatkar13@gmail.com"
@@ -23,20 +21,20 @@ Body:
 }
 HTTP/1.1 201 Created
 Server: GitHub.com
-Date: Sun, 13 Aug 2023 19:08:31 GMT
+Date: Wed, 30 Aug 2023 21:05:37 GMT
 Content-Type: application/json; charset=utf-8
 Content-Length: 1634
 Cache-Control: private, max-age=60, s-maxage=60
 Vary: Accept, Authorization, Cookie, X-GitHub-OTP
-ETag: "646681b846810a769fda3af4c239026c949be8c705ea46b8d1b8f66a56f93796"
-X-OAuth-Scopes: admin:enterprise, admin:gpg_key, admin:org, admin:public_key, admin:repo_hook, admin:ssh_signing_key, delete_repo, repo, user, write:packages
+ETag: "40355e7ba6365fe82a7f10eac715328bb06b7cc9601279f6dab49e1393fc578a"
+X-OAuth-Scopes: delete:packages, delete_repo, repo, user, write:discussion, write:packages
 X-Accepted-OAuth-Scopes: 
 X-GitHub-Media-Type: github.v3; format=json
 x-github-api-version-selected: 2022-11-28
 X-RateLimit-Limit: 5000
-X-RateLimit-Remaining: 4979
-X-RateLimit-Reset: 1691955607
-X-RateLimit-Used: 21
+X-RateLimit-Remaining: 4985
+X-RateLimit-Reset: 1693433054
+X-RateLimit-Used: 15
 X-RateLimit-Resource: core
 Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset
 Access-Control-Allow-Origin: *
@@ -47,43 +45,43 @@ X-XSS-Protection: 0
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Content-Security-Policy: default-src 'none'
 Vary: Accept-Encoding, Accept, X-Requested-With
-X-GitHub-Request-Id: 3F70:30E9DD:1E36F4:2315B2:64D92A2E
+X-GitHub-Request-Id: 20FE:3A8AE6:552A7:60DC8:64EFAF21
 
 {
     "content": {
         "name": "text.txt",
         "path": "text.txt",
-        "sha": "4531bda61d7dca4693c8009c1967ac45081e1b88",
-        "size": 25,
+        "sha": "371af7be96c743a890af4b9af5a941b1cb866040",
+        "size": 27,
         "url": "https://api.github.com/repos/vrushabhmanatkar13/ABC/contents/text.txt?ref=main",
         "html_url": "https://github.com/vrushabhmanatkar13/ABC/blob/main/text.txt",
-        "git_url": "https://api.github.com/repos/vrushabhmanatkar13/ABC/git/blobs/4531bda61d7dca4693c8009c1967ac45081e1b88",
+        "git_url": "https://api.github.com/repos/vrushabhmanatkar13/ABC/git/blobs/371af7be96c743a890af4b9af5a941b1cb866040",
         "download_url": "https://raw.githubusercontent.com/vrushabhmanatkar13/ABC/main/text.txt",
         "type": "file",
         "_links": {
             "self": "https://api.github.com/repos/vrushabhmanatkar13/ABC/contents/text.txt?ref=main",
-            "git": "https://api.github.com/repos/vrushabhmanatkar13/ABC/git/blobs/4531bda61d7dca4693c8009c1967ac45081e1b88",
+            "git": "https://api.github.com/repos/vrushabhmanatkar13/ABC/git/blobs/371af7be96c743a890af4b9af5a941b1cb866040",
             "html": "https://github.com/vrushabhmanatkar13/ABC/blob/main/text.txt"
         }
     },
     "commit": {
-        "sha": "f8f54818cc600b58bc94a4977df0ba8a3a3f787a",
-        "node_id": "C_kwDOKGtjVtoAKGY4ZjU0ODE4Y2M2MDBiNThiYzk0YTQ5NzdkZjBiYThhM2EzZjc4N2E",
-        "url": "https://api.github.com/repos/vrushabhmanatkar13/ABC/git/commits/f8f54818cc600b58bc94a4977df0ba8a3a3f787a",
-        "html_url": "https://github.com/vrushabhmanatkar13/ABC/commit/f8f54818cc600b58bc94a4977df0ba8a3a3f787a",
+        "sha": "a595d23b9efff4b8f1b890a0f965925f3b127019",
+        "node_id": "C_kwDOKNg63NoAKGE1OTVkMjNiOWVmZmY0YjhmMWI4OTBhMGY5NjU5MjVmM2IxMjcwMTk",
+        "url": "https://api.github.com/repos/vrushabhmanatkar13/ABC/git/commits/a595d23b9efff4b8f1b890a0f965925f3b127019",
+        "html_url": "https://github.com/vrushabhmanatkar13/ABC/commit/a595d23b9efff4b8f1b890a0f965925f3b127019",
         "author": {
             "name": "Vrushabh Manatkar",
             "email": "vrushabhmanatkar13@gmail.com",
-            "date": "2023-08-13T19:08:31Z"
+            "date": "2023-08-30T21:05:37Z"
         },
         "committer": {
             "name": "Vrushabh Manatkar",
             "email": "vrushabhmanatkar13@gmail.com",
-            "date": "2023-08-13T19:08:31Z"
+            "date": "2023-08-30T21:05:37Z"
         },
         "tree": {
-            "sha": "566dc9db205ce5eb92fc8584cc84543b2ffe4b2d",
-            "url": "https://api.github.com/repos/vrushabhmanatkar13/ABC/git/trees/566dc9db205ce5eb92fc8584cc84543b2ffe4b2d"
+            "sha": "39da93a85bf982126a31911250b8ebb2645d3564",
+            "url": "https://api.github.com/repos/vrushabhmanatkar13/ABC/git/trees/39da93a85bf982126a31911250b8ebb2645d3564"
         },
         "message": "Add new file",
         "parents": [
@@ -97,3 +95,359 @@ X-GitHub-Request-Id: 3F70:30E9DD:1E36F4:2315B2:64D92A2E
         }
     }
 }
+Request method:	GET
+Request URI:	https://api.github.com/repos/vrushabhmanatkar13/ABC/contents/text.txt
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer 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
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "message": "Add new file",
+    "content": "SGkgSSBhbSBjcmVhdGluZyBuZXcgRmlsZSBB",
+    "committer": {
+        "name": "Vrushabh Manatkar",
+        "email": "vrushabhmanatkar13@gmail.com"
+    }
+}
+HTTP/1.1 200 OK
+Server: GitHub.com
+Date: Wed, 30 Aug 2023 21:05:38 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Cache-Control: private, max-age=60, s-maxage=60
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+ETag: W/"371af7be96c743a890af4b9af5a941b1cb866040"
+Last-Modified: Wed, 30 Aug 2023 21:05:37 GMT
+X-OAuth-Scopes: delete:packages, delete_repo, repo, user, write:discussion, write:packages
+X-Accepted-OAuth-Scopes: 
+X-GitHub-Media-Type: github.v3; format=json
+x-github-api-version-selected: 2022-11-28
+X-RateLimit-Limit: 5000
+X-RateLimit-Remaining: 4984
+X-RateLimit-Reset: 1693433054
+X-RateLimit-Used: 16
+X-RateLimit-Resource: core
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset
+Access-Control-Allow-Origin: *
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+X-Frame-Options: deny
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 0
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Content-Security-Policy: default-src 'none'
+Vary: Accept-Encoding, Accept, X-Requested-With
+Content-Encoding: gzip
+X-GitHub-Request-Id: 1E90:3A3303:4F0FC:5AC1B:64EFAF22
+
+{
+    "name": "text.txt",
+    "path": "text.txt",
+    "sha": "371af7be96c743a890af4b9af5a941b1cb866040",
+    "size": 27,
+    "url": "https://api.github.com/repos/vrushabhmanatkar13/ABC/contents/text.txt?ref=main",
+    "html_url": "https://github.com/vrushabhmanatkar13/ABC/blob/main/text.txt",
+    "git_url": "https://api.github.com/repos/vrushabhmanatkar13/ABC/git/blobs/371af7be96c743a890af4b9af5a941b1cb866040",
+    "download_url": "https://raw.githubusercontent.com/vrushabhmanatkar13/ABC/main/text.txt",
+    "type": "file",
+    "content": "SGkgSSBhbSBjcmVhdGluZyBuZXcgRmlsZSBB\n",
+    "encoding": "base64",
+    "_links": {
+        "self": "https://api.github.com/repos/vrushabhmanatkar13/ABC/contents/text.txt?ref=main",
+        "git": "https://api.github.com/repos/vrushabhmanatkar13/ABC/git/blobs/371af7be96c743a890af4b9af5a941b1cb866040",
+        "html": "https://github.com/vrushabhmanatkar13/ABC/blob/main/text.txt"
+    }
+}
+Request method:	PUT
+Request URI:	https://api.github.com/repos/vrushabhmanatkar13/ABC/contents/text.txt
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer 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
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "message": "Up date File",
+    "content": "SGkgSSBhbSBVcGRhdGluZyBGaWxlIGNvbnRlbnQ=",
+    "sha": "371af7be96c743a890af4b9af5a941b1cb866040"
+}
+HTTP/1.1 200 OK
+Server: GitHub.com
+Date: Wed, 30 Aug 2023 21:05:39 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Cache-Control: private, max-age=60, s-maxage=60
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+ETag: W/"f8d85d955bf8cbc05f25bf37438f26433dfe287204f1fe101dc84aed0b8cd039"
+X-OAuth-Scopes: delete:packages, delete_repo, repo, user, write:discussion, write:packages
+X-Accepted-OAuth-Scopes: 
+X-GitHub-Media-Type: github.v3; format=json
+x-github-api-version-selected: 2022-11-28
+X-RateLimit-Limit: 5000
+X-RateLimit-Remaining: 4983
+X-RateLimit-Reset: 1693433054
+X-RateLimit-Used: 17
+X-RateLimit-Resource: core
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset
+Access-Control-Allow-Origin: *
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+X-Frame-Options: deny
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 0
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Content-Security-Policy: default-src 'none'
+Vary: Accept-Encoding, Accept, X-Requested-With
+Content-Encoding: gzip
+X-GitHub-Request-Id: 2AE6:29ECBF:5E995:6A4B2:64EFAF22
+
+{
+    "content": {
+        "name": "text.txt",
+        "path": "text.txt",
+        "sha": "b065a1d4652592c7be7c600efa8e9056c05c1156",
+        "size": 29,
+        "url": "https://api.github.com/repos/vrushabhmanatkar13/ABC/contents/text.txt?ref=main",
+        "html_url": "https://github.com/vrushabhmanatkar13/ABC/blob/main/text.txt",
+        "git_url": "https://api.github.com/repos/vrushabhmanatkar13/ABC/git/blobs/b065a1d4652592c7be7c600efa8e9056c05c1156",
+        "download_url": "https://raw.githubusercontent.com/vrushabhmanatkar13/ABC/main/text.txt",
+        "type": "file",
+        "_links": {
+            "self": "https://api.github.com/repos/vrushabhmanatkar13/ABC/contents/text.txt?ref=main",
+            "git": "https://api.github.com/repos/vrushabhmanatkar13/ABC/git/blobs/b065a1d4652592c7be7c600efa8e9056c05c1156",
+            "html": "https://github.com/vrushabhmanatkar13/ABC/blob/main/text.txt"
+        }
+    },
+    "commit": {
+        "sha": "7bdc2ab595bf7573b1712c23709e650b1cdd021b",
+        "node_id": "C_kwDOKNg63NoAKDdiZGMyYWI1OTViZjc1NzNiMTcxMmMyMzcwOWU2NTBiMWNkZDAyMWI",
+        "url": "https://api.github.com/repos/vrushabhmanatkar13/ABC/git/commits/7bdc2ab595bf7573b1712c23709e650b1cdd021b",
+        "html_url": "https://github.com/vrushabhmanatkar13/ABC/commit/7bdc2ab595bf7573b1712c23709e650b1cdd021b",
+        "author": {
+            "name": "Vrushabh_Manatkar",
+            "email": "110097432+vrushabhmanatkar13@users.noreply.github.com",
+            "date": "2023-08-30T21:05:39Z"
+        },
+        "committer": {
+            "name": "Vrushabh_Manatkar",
+            "email": "110097432+vrushabhmanatkar13@users.noreply.github.com",
+            "date": "2023-08-30T21:05:39Z"
+        },
+        "tree": {
+            "sha": "ce9c4f0b1614e59be935c222b5d34a167838cbaa",
+            "url": "https://api.github.com/repos/vrushabhmanatkar13/ABC/git/trees/ce9c4f0b1614e59be935c222b5d34a167838cbaa"
+        },
+        "message": "Up date File",
+        "parents": [
+            {
+                "sha": "a595d23b9efff4b8f1b890a0f965925f3b127019",
+                "url": "https://api.github.com/repos/vrushabhmanatkar13/ABC/git/commits/a595d23b9efff4b8f1b890a0f965925f3b127019",
+                "html_url": "https://github.com/vrushabhmanatkar13/ABC/commit/a595d23b9efff4b8f1b890a0f965925f3b127019"
+            }
+        ],
+        "verification": {
+            "verified": false,
+            "reason": "unsigned",
+            "signature": null,
+            "payload": null
+        }
+    }
+}
+Request method:	GET
+Request URI:	https://api.github.com/repos/vrushabhmanatkar13/ABC/contents/text.txt
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer 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
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "message": "Up date File",
+    "content": "SGkgSSBhbSBVcGRhdGluZyBGaWxlIGNvbnRlbnQ=",
+    "sha": "371af7be96c743a890af4b9af5a941b1cb866040"
+}
+HTTP/1.1 200 OK
+Server: GitHub.com
+Date: Wed, 30 Aug 2023 21:05:39 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Cache-Control: private, max-age=60, s-maxage=60
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+ETag: W/"b065a1d4652592c7be7c600efa8e9056c05c1156"
+Last-Modified: Wed, 30 Aug 2023 21:05:39 GMT
+X-OAuth-Scopes: delete:packages, delete_repo, repo, user, write:discussion, write:packages
+X-Accepted-OAuth-Scopes: 
+X-GitHub-Media-Type: github.v3; format=json
+x-github-api-version-selected: 2022-11-28
+X-RateLimit-Limit: 5000
+X-RateLimit-Remaining: 4982
+X-RateLimit-Reset: 1693433054
+X-RateLimit-Used: 18
+X-RateLimit-Resource: core
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset
+Access-Control-Allow-Origin: *
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+X-Frame-Options: deny
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 0
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Content-Security-Policy: default-src 'none'
+Vary: Accept-Encoding, Accept, X-Requested-With
+Content-Encoding: gzip
+X-GitHub-Request-Id: 507C:3A3303:4F119:5AC41:64EFAF23
+
+{
+    "name": "text.txt",
+    "path": "text.txt",
+    "sha": "b065a1d4652592c7be7c600efa8e9056c05c1156",
+    "size": 29,
+    "url": "https://api.github.com/repos/vrushabhmanatkar13/ABC/contents/text.txt?ref=main",
+    "html_url": "https://github.com/vrushabhmanatkar13/ABC/blob/main/text.txt",
+    "git_url": "https://api.github.com/repos/vrushabhmanatkar13/ABC/git/blobs/b065a1d4652592c7be7c600efa8e9056c05c1156",
+    "download_url": "https://raw.githubusercontent.com/vrushabhmanatkar13/ABC/main/text.txt",
+    "type": "file",
+    "content": "SGkgSSBhbSBVcGRhdGluZyBGaWxlIGNvbnRlbnQ=\n",
+    "encoding": "base64",
+    "_links": {
+        "self": "https://api.github.com/repos/vrushabhmanatkar13/ABC/contents/text.txt?ref=main",
+        "git": "https://api.github.com/repos/vrushabhmanatkar13/ABC/git/blobs/b065a1d4652592c7be7c600efa8e9056c05c1156",
+        "html": "https://github.com/vrushabhmanatkar13/ABC/blob/main/text.txt"
+    }
+}
+Request method:	DELETE
+Request URI:	https://api.github.com/repos/vrushabhmanatkar13/ABC/contents/text.txt
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer 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
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "message": "Delete File",
+    "sha": "b065a1d4652592c7be7c600efa8e9056c05c1156"
+}
+HTTP/1.1 200 OK
+Server: GitHub.com
+Date: Wed, 30 Aug 2023 21:05:40 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Cache-Control: private, max-age=60, s-maxage=60
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+ETag: W/"e1aa4fccd8ffe9d5c55988ef623700348e140f574414073f3e07cd31207b8625"
+X-OAuth-Scopes: delete:packages, delete_repo, repo, user, write:discussion, write:packages
+X-Accepted-OAuth-Scopes: 
+X-GitHub-Media-Type: github.v3; format=json
+x-github-api-version-selected: 2022-11-28
+X-RateLimit-Limit: 5000
+X-RateLimit-Remaining: 4981
+X-RateLimit-Reset: 1693433054
+X-RateLimit-Used: 19
+X-RateLimit-Resource: core
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset
+Access-Control-Allow-Origin: *
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+X-Frame-Options: deny
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 0
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Content-Security-Policy: default-src 'none'
+Vary: Accept-Encoding, Accept, X-Requested-With
+Content-Encoding: gzip
+X-GitHub-Request-Id: 5069:3B131B:5E79E:6A2C5:64EFAF24
+
+{
+    "content": null,
+    "commit": {
+        "sha": "87014a7aa68d6f0bc37275ad588173a825f9e8ac",
+        "node_id": "C_kwDOKNg63NoAKDg3MDE0YTdhYTY4ZDZmMGJjMzcyNzVhZDU4ODE3M2E4MjVmOWU4YWM",
+        "url": "https://api.github.com/repos/vrushabhmanatkar13/ABC/git/commits/87014a7aa68d6f0bc37275ad588173a825f9e8ac",
+        "html_url": "https://github.com/vrushabhmanatkar13/ABC/commit/87014a7aa68d6f0bc37275ad588173a825f9e8ac",
+        "author": {
+            "name": "Vrushabh_Manatkar",
+            "email": "110097432+vrushabhmanatkar13@users.noreply.github.com",
+            "date": "2023-08-30T21:05:40Z"
+        },
+        "committer": {
+            "name": "Vrushabh_Manatkar",
+            "email": "110097432+vrushabhmanatkar13@users.noreply.github.com",
+            "date": "2023-08-30T21:05:40Z"
+        },
+        "tree": {
+            "sha": "4b825dc642cb6eb9a060e54bf8d69288fbee4904",
+            "url": "https://api.github.com/repos/vrushabhmanatkar13/ABC/git/trees/4b825dc642cb6eb9a060e54bf8d69288fbee4904"
+        },
+        "message": "Delete File",
+        "parents": [
+            {
+                "sha": "7bdc2ab595bf7573b1712c23709e650b1cdd021b",
+                "url": "https://api.github.com/repos/vrushabhmanatkar13/ABC/git/commits/7bdc2ab595bf7573b1712c23709e650b1cdd021b",
+                "html_url": "https://github.com/vrushabhmanatkar13/ABC/commit/7bdc2ab595bf7573b1712c23709e650b1cdd021b"
+            }
+        ],
+        "verification": {
+            "verified": false,
+            "reason": "unsigned",
+            "signature": null,
+            "payload": null
+        }
+    }
+}
+Request method:	DELETE
+Request URI:	https://api.github.com/repos/vrushabhmanatkar13/ABC
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer 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
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "message": "Delete File",
+    "sha": "b065a1d4652592c7be7c600efa8e9056c05c1156"
+}
+HTTP/1.1 204 No Content
+Server: GitHub.com
+Date: Wed, 30 Aug 2023 21:05:41 GMT
+X-OAuth-Scopes: delete:packages, delete_repo, repo, user, write:discussion, write:packages
+X-Accepted-OAuth-Scopes: delete_repo
+X-GitHub-Media-Type: github.v3; format=json
+x-github-api-version-selected: 2022-11-28
+X-RateLimit-Limit: 5000
+X-RateLimit-Remaining: 4980
+X-RateLimit-Reset: 1693433054
+X-RateLimit-Used: 20
+X-RateLimit-Resource: core
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset
+Access-Control-Allow-Origin: *
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+X-Frame-Options: deny
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 0
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Content-Security-Policy: default-src 'none'
+Vary: Accept-Encoding, Accept, X-Requested-With
+X-GitHub-Request-Id: 6514:2A63D3:4BB46:5766B:64EFAF24
